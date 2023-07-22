@@ -38,3 +38,13 @@ public static void main(String[] args) {
 		
 	}
 
+
+
+// METHOD OVERLOADING
+
+int Add(int,int)  
+float Add(int,int)  // Will give Error
+
+int Add(int,int)  
+float Add(String ,int)  // Will Run as input types are different
+	
